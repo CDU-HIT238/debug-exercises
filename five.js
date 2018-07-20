@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', function() {
 			'five.html',
 			'six.html'
 		];
-		var url = links[index - 1];
+		var url = links[index];
 		var anchor = document.createElement('a');
 		anchor.classList.add('previousLink');
 		anchor.href = url;
